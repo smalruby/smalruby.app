@@ -29,5 +29,10 @@ declare const reactIntlMessages: {
         defaultMessage: string;
         description: string;
     };
+    migrateMeshV1Warning: {
+        id: string;
+        defaultMessage: string;
+        description: string;
+    };
 };
 export default reactIntlMessages;
