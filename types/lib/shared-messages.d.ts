@@ -34,5 +34,10 @@ declare const reactIntlMessages: {
         defaultMessage: string;
         description: string;
     };
+    changedRubyVersionByKoshien: {
+        id: string;
+        defaultMessage: string;
+        description: string;
+    };
 };
 export default reactIntlMessages;
