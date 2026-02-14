@@ -4,6 +4,8 @@ import { setFullScreen, setPlayer, setEmbedded } from './reducers/mode.js';
 import { LoadingStates, onFetchedProjectData, onLoadedProject, defaultProjectId, manualUpdateProject, remixProject, requestNewProject, requestProjectUpload, setProjectId } from './reducers/project-state.js';
 import { openLoadingProject, closeLoadingProject, openTelemetryModal } from './reducers/modals.js';
 import { setStageSize } from './reducers/stage-size';
+import { activateDeck } from './reducers/cards';
+import { markTutorialSeen } from './reducers/tutorial-onboarding';
 export declare const guiReducers: {
     locales: any;
     scratchGui: import("redux").Reducer<import("redux").CombinedState<{
@@ -43,8 +45,10 @@ export declare const guiReducers: {
         googleDriveFile: any;
         koshienFile: any;
         rubyCode: any;
+        cards: any;
+        tutorialOnboarding: any;
         test: any;
     }>, any>;
     scratchPaint: any;
 };
-export { LoadingStates, onFetchedProjectData, onLoadedProject, defaultProjectId, manualUpdateProject, remixProject, requestNewProject, requestProjectUpload, setProjectId, setStageSize, openLoadingProject, closeLoadingProject, openTelemetryModal, buildInitialState, guiMiddleware, initEmbedded, initPlayer, initFullScreen, initLocale, localesInitialState, setFullScreen, setPlayer, setEmbedded, selectLocale };
+export { LoadingStates, onFetchedProjectData, onLoadedProject, defaultProjectId, manualUpdateProject, remixProject, requestNewProject, requestProjectUpload, setProjectId, setStageSize, activateDeck, markTutorialSeen, openLoadingProject, closeLoadingProject, openTelemetryModal, buildInitialState, guiMiddleware, initEmbedded, initPlayer, initFullScreen, initLocale, localesInitialState, setFullScreen, setPlayer, setEmbedded, selectLocale };

@@ -42,6 +42,8 @@ export declare const guiInitialState: {
     googleDriveFile: any;
     koshienFile: any;
     rubyCode: any;
+    cards: any;
+    tutorialOnboarding: any;
     test: {
         isTest: boolean;
     };

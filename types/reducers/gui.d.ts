@@ -39,6 +39,8 @@ declare const buildInitialState: (config: GUIConfig) => {
     googleDriveFile: any;
     koshienFile: any;
     rubyCode: any;
+    cards: any;
+    tutorialOnboarding: any;
     test: {
         isTest: boolean;
     };
@@ -84,6 +86,8 @@ declare const guiReducer: import("redux").Reducer<import("redux").CombinedState<
     googleDriveFile: any;
     koshienFile: any;
     rubyCode: any;
+    cards: any;
+    tutorialOnboarding: any;
     test: any;
 }>, any>;
 export { guiReducer as default, buildInitialState, guiMiddleware, initEmbedded, initFullScreen, initPlayer, initTelemetryModal };
