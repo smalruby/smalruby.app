@@ -3,6 +3,15 @@ declare const guiMiddleware: import("redux").StoreEnhancer<{
     dispatch: unknown;
 }, {}>;
 declare const buildInitialState: (config: GUIConfig) => {
+    test: {
+        isTest: boolean;
+    };
+    meshV2: any;
+    googleDriveFile: any;
+    koshienFile: any;
+    rubyCode: any;
+    cards: any;
+    tutorialOnboarding: any;
     alerts: any;
     assetDrag: any;
     blockDrag: any;
@@ -36,21 +45,19 @@ declare const buildInitialState: (config: GUIConfig) => {
     workspaceMetrics: any;
     blockDisplay: any;
     extensionFilter: any;
-    meshV2: any;
-    googleDriveFile: any;
-    koshienFile: any;
-    rubyCode: any;
-    cards: any;
-    tutorialOnboarding: any;
-    test: {
-        isTest: boolean;
-    };
 };
 declare const initPlayer: (currentState: any) => any;
 declare const initFullScreen: (currentState: any) => any;
 declare const initEmbedded: (currentState: any) => any;
 declare const initTelemetryModal: (currentState: any) => any;
 declare const guiReducer: import("redux").Reducer<import("redux").CombinedState<{
+    test: any;
+    meshV2: any;
+    googleDriveFile: any;
+    koshienFile: any;
+    rubyCode: any;
+    cards: any;
+    tutorialOnboarding: any;
     alerts: any;
     assetDrag: any;
     blockDrag: any;
@@ -84,12 +91,5 @@ declare const guiReducer: import("redux").Reducer<import("redux").CombinedState<
     workspaceMetrics: any;
     blockDisplay: any;
     extensionFilter: any;
-    meshV2: any;
-    googleDriveFile: any;
-    koshienFile: any;
-    rubyCode: any;
-    cards: any;
-    tutorialOnboarding: any;
-    test: any;
 }>, any>;
 export { guiReducer as default, buildInitialState, guiMiddleware, initEmbedded, initFullScreen, initPlayer, initTelemetryModal };

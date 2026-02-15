@@ -6,6 +6,15 @@ export { default as AppStateHOC } from './lib/app-state-hoc.jsx';
 export { setAppElement } from 'react-modal';
 export { legacyConfig };
 export declare const guiInitialState: {
+    test: {
+        isTest: boolean;
+    };
+    meshV2: any;
+    googleDriveFile: any;
+    koshienFile: any;
+    rubyCode: any;
+    cards: any;
+    tutorialOnboarding: any;
     alerts: any;
     assetDrag: any;
     blockDrag: any;
@@ -39,14 +48,5 @@ export declare const guiInitialState: {
     workspaceMetrics: any;
     blockDisplay: any;
     extensionFilter: any;
-    meshV2: any;
-    googleDriveFile: any;
-    koshienFile: any;
-    rubyCode: any;
-    cards: any;
-    tutorialOnboarding: any;
-    test: {
-        isTest: boolean;
-    };
 };
 export * from './exported-reducers';

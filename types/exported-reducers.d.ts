@@ -9,6 +9,13 @@ import { markTutorialSeen } from './reducers/tutorial-onboarding';
 export declare const guiReducers: {
     locales: any;
     scratchGui: import("redux").Reducer<import("redux").CombinedState<{
+        test: any;
+        meshV2: any;
+        googleDriveFile: any;
+        koshienFile: any;
+        rubyCode: any;
+        cards: any;
+        tutorialOnboarding: any;
         alerts: any;
         assetDrag: any;
         blockDrag: any;
@@ -42,13 +49,6 @@ export declare const guiReducers: {
         workspaceMetrics: any;
         blockDisplay: any;
         extensionFilter: any;
-        meshV2: any;
-        googleDriveFile: any;
-        koshienFile: any;
-        rubyCode: any;
-        cards: any;
-        tutorialOnboarding: any;
-        test: any;
     }>, any>;
     scratchPaint: any;
 };
