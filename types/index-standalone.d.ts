@@ -1,8 +1,8 @@
 import './lib/log-suppression';
 import { EditorState } from './lib/editor-state';
 import { ReactComponentLike } from 'prop-types';
-export { EditorState, EditorStateParams } from './lib/editor-state';
-export { AccountMenuOptions } from './lib/account-menu-options';
+export { EditorState, type EditorStateParams } from './lib/editor-state';
+export { type AccountMenuOptions } from './lib/account-menu-options';
 export { setAppElement } from 'react-modal';
 export * from './gui-config';
 export * from './exported-reducers';

@@ -13,6 +13,7 @@ export declare const guiInitialState: {
     config: import("./gui-config").GUIConfig;
     connectionModal: any;
     customProcedures: any;
+    dynamicAssets: any;
     editorTab: any;
     mode: any;
     hoveredTarget: any;

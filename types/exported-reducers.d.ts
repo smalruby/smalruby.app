@@ -15,6 +15,7 @@ export declare const guiReducers: {
         colorPicker: any;
         connectionModal: any;
         config: import("./gui-config.js").GUIConfig | null;
+        dynamicAssets: any;
         customProcedures: any;
         editorTab: any;
         mode: any;

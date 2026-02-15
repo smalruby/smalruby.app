@@ -10,6 +10,7 @@ declare const buildInitialState: (config: GUIConfig) => {
     config: GUIConfig;
     connectionModal: any;
     customProcedures: any;
+    dynamicAssets: any;
     editorTab: any;
     mode: any;
     hoveredTarget: any;
@@ -56,6 +57,7 @@ declare const guiReducer: import("redux").Reducer<import("redux").CombinedState<
     colorPicker: any;
     connectionModal: any;
     config: GUIConfig | null;
+    dynamicAssets: any;
     customProcedures: any;
     editorTab: any;
     mode: any;
