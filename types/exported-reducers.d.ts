@@ -16,6 +16,7 @@ export declare const guiReducers: {
         rubyCode: any;
         cards: any;
         tutorialOnboarding: any;
+        paletteVisibility: any;
         alerts: any;
         assetDrag: any;
         blockDrag: any;

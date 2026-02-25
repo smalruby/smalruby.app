@@ -15,6 +15,7 @@ export declare const guiInitialState: {
     rubyCode: any;
     cards: any;
     tutorialOnboarding: any;
+    paletteVisibility: any;
     alerts: any;
     assetDrag: any;
     blockDrag: any;
