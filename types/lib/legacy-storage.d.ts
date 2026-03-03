@@ -29,5 +29,5 @@ export declare class LegacyStorage implements GUIStorage {
     private getProjectUpdateConfig;
     private getAssetGetConfig;
     private getAssetCreateConfig;
-    private getBackpackAssetURL;
+    getBackpackAssetURL(asset: any): any;
 }
