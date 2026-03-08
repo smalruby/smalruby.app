@@ -2,7 +2,7 @@ import { localesInitialState, initLocale, selectLocale } from './reducers/locale
 import { buildInitialState, guiMiddleware, initEmbedded, initFullScreen, initPlayer } from './reducers/gui';
 import { setFullScreen, setPlayer, setEmbedded } from './reducers/mode.js';
 import { LoadingStates, onFetchedProjectData, onLoadedProject, defaultProjectId, manualUpdateProject, remixProject, requestNewProject, requestProjectUpload, setProjectId } from './reducers/project-state.js';
-import { openLoadingProject, closeLoadingProject, openTelemetryModal } from './reducers/modals.js';
+import { openBackdropLibrary, openCostumeLibrary, openDebugModal, openExtensionLibrary, openLoadingProject, openTelemetryModal, openSoundLibrary, openSpriteLibrary, openSoundRecorder, openConnectionModal, openTipsLibrary, closeBackdropLibrary, closeCostumeLibrary, closeDebugModal, closeExtensionLibrary, closeLoadingProject, closeTelemetryModal, closeSpriteLibrary, closeSoundLibrary, closeSoundRecorder, closeTipsLibrary, closeConnectionModal } from './reducers/modals.js';
 import { setStageSize } from './reducers/stage-size';
 import { activateDeck } from './reducers/cards';
 import { markTutorialSeen } from './reducers/tutorial-onboarding';
@@ -53,4 +53,4 @@ export declare const guiReducers: {
     }>, any>;
     scratchPaint: any;
 };
-export { LoadingStates, onFetchedProjectData, onLoadedProject, defaultProjectId, manualUpdateProject, remixProject, requestNewProject, requestProjectUpload, setProjectId, setStageSize, activateDeck, markTutorialSeen, openLoadingProject, closeLoadingProject, openTelemetryModal, buildInitialState, guiMiddleware, initEmbedded, initPlayer, initFullScreen, initLocale, localesInitialState, setFullScreen, setPlayer, setEmbedded, selectLocale };
+export { LoadingStates, onFetchedProjectData, onLoadedProject, defaultProjectId, manualUpdateProject, remixProject, requestNewProject, requestProjectUpload, setProjectId, setStageSize, activateDeck, markTutorialSeen, openBackdropLibrary, openCostumeLibrary, openDebugModal, openExtensionLibrary, openLoadingProject, openTelemetryModal, openSoundLibrary, openSpriteLibrary, openSoundRecorder, openConnectionModal, openTipsLibrary, closeBackdropLibrary, closeCostumeLibrary, closeDebugModal, closeExtensionLibrary, closeLoadingProject, closeTelemetryModal, closeSpriteLibrary, closeSoundLibrary, closeSoundRecorder, closeTipsLibrary, closeConnectionModal, buildInitialState, guiMiddleware, initEmbedded, initPlayer, initFullScreen, initLocale, localesInitialState, setFullScreen, setPlayer, setEmbedded, selectLocale };
