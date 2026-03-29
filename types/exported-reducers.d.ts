@@ -10,6 +10,7 @@ export declare const guiReducers: {
     locales: any;
     scratchGui: import("redux").Reducer<import("redux").CombinedState<{
         test: any;
+        dnclMode: any;
         meshV2: any;
         googleDriveFile: any;
         koshienFile: any;

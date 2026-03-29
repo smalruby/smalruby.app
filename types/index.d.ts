@@ -9,6 +9,7 @@ export declare const guiInitialState: {
     test: {
         isTest: boolean;
     };
+    dnclMode: any;
     meshV2: any;
     googleDriveFile: any;
     koshienFile: any;
