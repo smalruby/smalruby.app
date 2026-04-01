@@ -8,6 +8,7 @@ export declare const smalrubyReducers: {
     googleDriveFile: any;
     koshienFile: any;
     rubyCode: any;
+    smalrubotFirmware: any;
     cards: any;
     tutorialOnboarding: any;
     paletteVisibility: any;
@@ -22,6 +23,7 @@ export declare const smalrubyInitialState: {
     googleDriveFile: any;
     koshienFile: any;
     rubyCode: any;
+    smalrubotFirmware: any;
     cards: any;
     tutorialOnboarding: any;
     paletteVisibility: any;

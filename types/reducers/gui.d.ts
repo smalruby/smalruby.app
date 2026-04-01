@@ -11,6 +11,7 @@ declare const buildInitialState: (config: GUIConfig) => {
     googleDriveFile: any;
     koshienFile: any;
     rubyCode: any;
+    smalrubotFirmware: any;
     cards: any;
     tutorialOnboarding: any;
     paletteVisibility: any;
@@ -59,6 +60,7 @@ declare const guiReducer: import("redux").Reducer<import("redux").CombinedState<
     googleDriveFile: any;
     koshienFile: any;
     rubyCode: any;
+    smalrubotFirmware: any;
     cards: any;
     tutorialOnboarding: any;
     paletteVisibility: any;

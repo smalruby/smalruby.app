@@ -14,6 +14,7 @@ export declare const guiInitialState: {
     googleDriveFile: any;
     koshienFile: any;
     rubyCode: any;
+    smalrubotFirmware: any;
     cards: any;
     tutorialOnboarding: any;
     paletteVisibility: any;

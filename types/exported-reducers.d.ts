@@ -15,6 +15,7 @@ export declare const guiReducers: {
         googleDriveFile: any;
         koshienFile: any;
         rubyCode: any;
+        smalrubotFirmware: any;
         cards: any;
         tutorialOnboarding: any;
         paletteVisibility: any;
