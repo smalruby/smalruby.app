@@ -4,6 +4,7 @@
  */
 export declare const smalrubyReducers: {
     classroom: any;
+    classroomTutorial: any;
     dnclMode: any;
     meshV2: any;
     googleDriveFile: any;
@@ -20,6 +21,7 @@ export declare const smalrubyReducers: {
  */
 export declare const smalrubyInitialState: {
     classroom: any;
+    classroomTutorial: any;
     dnclMode: any;
     meshV2: any;
     googleDriveFile: any;

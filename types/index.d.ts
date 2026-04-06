@@ -10,6 +10,7 @@ export declare const guiInitialState: {
         isTest: boolean;
     };
     classroom: any;
+    classroomTutorial: any;
     dnclMode: any;
     meshV2: any;
     googleDriveFile: any;

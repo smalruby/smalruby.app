@@ -11,6 +11,7 @@ export declare const guiReducers: {
     scratchGui: import("redux").Reducer<import("redux").CombinedState<{
         test: any;
         classroom: any;
+        classroomTutorial: any;
         dnclMode: any;
         meshV2: any;
         googleDriveFile: any;

@@ -7,6 +7,7 @@ declare const buildInitialState: (config: GUIConfig) => {
         isTest: boolean;
     };
     classroom: any;
+    classroomTutorial: any;
     dnclMode: any;
     meshV2: any;
     googleDriveFile: any;
@@ -57,6 +58,7 @@ declare const initTelemetryModal: (currentState: any) => any;
 declare const guiReducer: import("redux").Reducer<import("redux").CombinedState<{
     test: any;
     classroom: any;
+    classroomTutorial: any;
     dnclMode: any;
     meshV2: any;
     googleDriveFile: any;
