@@ -34,6 +34,16 @@ declare const reactIntlMessages: {
         defaultMessage: string;
         description: string;
     };
+    meshV1AutoMigrated: {
+        id: string;
+        defaultMessage: string;
+        description: string;
+    };
+    meshV1BackpackAutoMigrated: {
+        id: string;
+        defaultMessage: string;
+        description: string;
+    };
     changedRubyVersionByKoshien: {
         id: string;
         defaultMessage: string;
