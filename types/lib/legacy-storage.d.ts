@@ -1,12 +1,16 @@
 import { ScratchStorage } from 'scratch-storage';
-import { GUIStorage, TranslatorFunction } from '../gui-config';
+import { GUIStorage, TranslatorFunction, VirtualMachine, GUICloudVariableProvider } from '../gui-config';
+import { LegacyBackpackStorage } from './legacy-backpack-storage';
 export declare class LegacyStorage implements GUIStorage {
     private projectHost?;
     private projectToken?;
     private assetHost?;
-    private backpackHost?;
     private translator?;
     readonly scratchStorage: ScratchStorage;
+    readonly backpackStorage: LegacyBackpackStorage;
+    readonly cloudVariables: {
+        createProvider(cloudHost: string, vm: VirtualMachine, username: string, projectId: string): GUICloudVariableProvider;
+    };
     constructor();
     setProjectHost(host: string): void;
     setProjectToken(token: string): void;
@@ -29,5 +33,4 @@ export declare class LegacyStorage implements GUIStorage {
     private getProjectUpdateConfig;
     private getAssetGetConfig;
     private getAssetCreateConfig;
-    getBackpackAssetURL(asset: any): any;
 }
