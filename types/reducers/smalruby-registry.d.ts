@@ -3,6 +3,7 @@
  * These will be spread into combineReducers() in gui.ts
  */
 export declare const smalrubyReducers: {
+    bugReport: any;
     classroom: any;
     classroomTutorial: any;
     dnclMode: any;
@@ -20,6 +21,7 @@ export declare const smalrubyReducers: {
  * These will be spread into buildInitialState() in gui.ts
  */
 export declare const smalrubyInitialState: {
+    bugReport: any;
     classroom: any;
     classroomTutorial: any;
     dnclMode: any;

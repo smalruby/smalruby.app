@@ -9,6 +9,7 @@ export declare const guiInitialState: {
     test: {
         isTest: boolean;
     };
+    bugReport: any;
     classroom: any;
     classroomTutorial: any;
     dnclMode: any;
