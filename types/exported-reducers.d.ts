@@ -17,6 +17,7 @@ export declare const guiReducers: {
         meshV2: any;
         googleDriveFile: any;
         koshienFile: any;
+        koshienMockPanel: any;
         rubyCode: any;
         smalrubotFirmware: any;
         cards: any;

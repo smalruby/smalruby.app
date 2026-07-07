@@ -13,6 +13,7 @@ declare const buildInitialState: (config: GUIConfig) => {
     meshV2: any;
     googleDriveFile: any;
     koshienFile: any;
+    koshienMockPanel: any;
     rubyCode: any;
     smalrubotFirmware: any;
     cards: any;
@@ -65,6 +66,7 @@ declare const guiReducer: import("redux").Reducer<import("redux").CombinedState<
     meshV2: any;
     googleDriveFile: any;
     koshienFile: any;
+    koshienMockPanel: any;
     rubyCode: any;
     smalrubotFirmware: any;
     cards: any;

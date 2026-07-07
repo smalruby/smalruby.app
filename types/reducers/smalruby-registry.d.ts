@@ -10,6 +10,7 @@ export declare const smalrubyReducers: {
     meshV2: any;
     googleDriveFile: any;
     koshienFile: any;
+    koshienMockPanel: any;
     rubyCode: any;
     smalrubotFirmware: any;
     cards: any;
@@ -28,6 +29,7 @@ export declare const smalrubyInitialState: {
     meshV2: any;
     googleDriveFile: any;
     koshienFile: any;
+    koshienMockPanel: any;
     rubyCode: any;
     smalrubotFirmware: any;
     cards: any;
