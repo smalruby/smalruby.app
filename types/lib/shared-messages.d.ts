@@ -29,11 +29,6 @@ declare const reactIntlMessages: {
         defaultMessage: string;
         description: string;
     };
-    migrateMeshV1Warning: {
-        id: string;
-        defaultMessage: string;
-        description: string;
-    };
     meshV1AutoMigrated: {
         id: string;
         defaultMessage: string;
