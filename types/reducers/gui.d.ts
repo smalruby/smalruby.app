@@ -19,6 +19,7 @@ declare const buildInitialState: (config: GUIConfig) => {
     cards: any;
     tutorialOnboarding: any;
     paletteVisibility: any;
+    lessonMode: any;
     alerts: any;
     assetDrag: any;
     blockDrag: any;
@@ -72,6 +73,7 @@ declare const guiReducer: import("redux").Reducer<import("redux").CombinedState<
     cards: any;
     tutorialOnboarding: any;
     paletteVisibility: any;
+    lessonMode: any;
     alerts: any;
     assetDrag: any;
     blockDrag: any;

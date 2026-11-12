@@ -23,6 +23,7 @@ export declare const guiReducers: {
         cards: any;
         tutorialOnboarding: any;
         paletteVisibility: any;
+        lessonMode: any;
         alerts: any;
         assetDrag: any;
         blockDrag: any;

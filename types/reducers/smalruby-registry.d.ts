@@ -16,6 +16,7 @@ export declare const smalrubyReducers: {
     cards: any;
     tutorialOnboarding: any;
     paletteVisibility: any;
+    lessonMode: any;
 };
 /**
  * All Smalruby initial state values
@@ -35,4 +36,5 @@ export declare const smalrubyInitialState: {
     cards: any;
     tutorialOnboarding: any;
     paletteVisibility: any;
+    lessonMode: any;
 };
