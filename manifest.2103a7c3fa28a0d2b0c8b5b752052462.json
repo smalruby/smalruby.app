@@ -1,6 +1,11 @@
 {
   "icons": [
     {
+      "src": "./icon_180x180.7aab86e767a324f59109f8f92e3778f9.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
       "src": "./icon_512x512.031503df2ae5b8c6b4d8f6b20fbbbb69.png",
       "sizes": "512x512",
       "type": "image/png"
